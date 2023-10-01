@@ -1,6 +1,7 @@
 import WetherImg from '../images/Weather.jpeg'
 import BlogImg from '../images/blogWebsite.jpeg'
 import UrlsImg from '../images/urlsShortener.jpeg'
+import TodoImag from '../images/TodoList.png'
 
 
 
@@ -231,6 +232,20 @@ export const projects = [
     category: "Full Stack",
     github: "https://github.com/Vinay20621/UrlsShortener",
     webapp: "https://urlsshortener.onrender.com",
+   
+  },
+  {
+    id: 3,
+    title: "Todo List",
+    date: "Aug 2023",
+    description:
+      "In this you add edit,deleted and reverse your item. In this i also used local Storage."
+   ,
+    image:TodoImag,
+    tags: ["react","boostrap"],
+    category: "Frontent",
+    github: "https://github.com/Vinay20621/TodoList",
+    webapp: "https://todo-list-5r4z.onrender.com",
    
   },
   
