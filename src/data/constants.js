@@ -2,6 +2,8 @@ import WetherImg from '../images/Weather.jpeg'
 import BlogImg from '../images/blogWebsite.jpeg'
 import UrlsImg from '../images/urlsShortener.jpeg'
 import TodoImag from '../images/TodoList.png'
+import PasswordGenerator from '../images/passwordGenerator.png'
+import ShopApp from '../images/ShopApp.png'
 
 
 
@@ -16,7 +18,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Vinay20621",
   resume:
-    "https://drive.google.com/file/d/1uoFlfUgA0hWO557LLKk_rFqaVv3xOuTf/view?usp=sharing",
+    "https://drive.google.com/file/d/1LpqLKTCcOqU9_48aEFB0p4nC9ZlE_XCZ/view",
   linkedin: "https://www.linkedin.com/in/vinay-singh-01259722b/",  
   insta: "https://www.instagram.com/vinay2001singh/",
  
@@ -127,39 +129,70 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQHbRc4KalclmA/company-logo_200_200/0/1676715856930?e=2147483647&v=beta&t=dfIZWOm5EYgzqbVy_ccNBSpX8hiN9ywsq-V0oCd9H0M",
-    role: "Fullstack Development Intern",
-    company: "TechnoHack Edu Tech",
-    date: "Aug 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    img: "",
+      role: "Fullstack Developer",
+    company: "Jan Elaaj",
+    date: "Nov 2024",
+    desc: `
+Developed an operations dashboard with interactive analytics for partner and clinic verification, tracking engagement metrics. Implemented real-time push notifications using Firebase, Node.js, and scheduling tools to ensure timely delivery, enhancing user engagement and operational efficiency.`,
     skills: [
       "Node js",
-      "Ejs",
       "Express",      
       "JavaScript",
       "React",
-      "Boostrap"   
+      "Material Ui",
+      "SQL"  
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
+    doc: ""
+     },
   {
-    id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQHDmIfYA5sY7w/company-logo_200_200/0/1685777114980?e=2147483647&v=beta&t=wNRoer2fWuvuMiWrMShi1XZ1fZ1XlpH25fUW1rUTuPA",
-    role: "Frontend Engineer Intern",
-    company: "CodSoft",
-    date: "july 2023",
-    desc: "Working on the Full Stack Developer  using Nodejs,ReactJS, Redux, and Material UI.",
+    id: 1,
+    img: "",
+     role: "Fullstack Developer",
+    company: "Aminurmus Technology Pvt lmt",
+    date: "Sept 2024",
+    desc: "Led the development of Aminurmus’s official website using React, Node.js, and MongoDB. Built a learning platform with user login, course purchases, and job applications. Integrated PhonePe for payments and created an admin dashboard for user and data management.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
+      "Node js",
+      "Express",      
       "JavaScript",
+      "React",
+      "Material Ui",
+      "Mongo Db"  
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-  },
+    doc: ""},
+    {
+      id: 2,
+      img: "https://www.barraiser.com/wp-content/themes/astra-child/images/barraiser-logo.png",
+      role: "Frontent Developer",
+      company: "BarRaiser",
+      date: "March 2024",
+      desc:`Developed a Candidate Comparison Tool for interviewers to compare BGS reports using Autocomplete, Apollo GraphQL, and React. Created timestamped interview notes, round copying features, and an Upcoming Interviews page. Integrated Mixpanel for tracking user events and errors.",
+    `,
+         skills: [      
+        "JavaScript",
+        "React",
+        "Material Ui",
+        "Graph ql",
+        "Appolo"
+      ],
+      doc: ""
+    },
+    {
+      id: 3,
+      img: "",
+      role: "Web Developer Intern",
+      company: "Zebblock Private Limit",
+      date: "Jan 2023",
+      desc:`Integrated Redux Toolkit into an ongoing project, improving state management with a centralized data store. This enhanced application stability by ensuring predictable state changes and providing a scalable architecture for better performance and maintainability. `,
+         skills: [      
+        "JavaScript",
+        "React",
+        "Material Ui",
+        "Redux"
+      ],
+      doc: ""
+    },
   
 ];
 
@@ -169,7 +202,7 @@ export const education = [
     img: "https://tse1.mm.bing.net/th?id=OIP.abO5mLuJiZfjfJnQTTfNXAAAAA&pid=Api&P=0&h=180",
     school: "Indian Institute Of Information Technology Kalyani",
     date: "Oct 2020 - Sep 2024",
-    grade: "7.83 CGPA",
+    grade: "8 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Indian Institute Of Information Technology Kalyani. I have completed 6 semesters and have a CGPA of 7.83. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. ",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
@@ -246,6 +279,34 @@ export const projects = [
     category: "Frontent",
     github: "https://github.com/Vinay20621/TodoList",
     webapp: "https://todo-list-5r4z.onrender.com",
+   
+  },
+  {
+    id: 4,
+    title: "Random Password Generator",
+    date: "Oct 2023",
+    description:
+      "In this we can generate more secure password."
+   ,
+    image:PasswordGenerator,
+    tags: ["react","boostrap"],
+    category: "Frontent",
+    github: "https://github.com/Vinay20621/Random_Password_Generator",
+    webapp: "https://random-password-generate.onrender.com/",
+   
+  },
+  {
+    id: 5,
+    title: "Mega-Mart Shop App",
+    date: "Dec 2023",
+    description:
+      "This app only foucus of design. In this there is many store user can see the product"
+   ,
+    image:ShopApp,
+    tags: ["react","tailwin css"],
+    category: "Frontent",
+    github: "https://github.com/Vinay20621/shop-app",
+    webapp: "https://shop-app-a4d1.onrender.com/",
    
   },
   
